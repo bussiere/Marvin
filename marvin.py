@@ -3,7 +3,6 @@ import random
 import time
 while True :
     i = random.randint(0,9)
-    i = 8
     t = ""
     if i == 0 :
         t = "My life is SO depressing"
@@ -22,8 +21,9 @@ while True :
     elif i == 7 :
         t  = "So much pretty girls around here and i am a robot kill me please"
     elif i ==  8 :
-        t = "EXTERMINATE"
+        t = "EXTERMINATE  even that sound depressing to me"
     
         
     time.sleep(random.randint(0,4)*10)
     os.system("""echo  "%s" | festival --tts"""%t)
+i
