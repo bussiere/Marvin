@@ -24,5 +24,5 @@ while True :
         t = ["EXTERMINATE","even that sound depressing to me"]
     for speech in t :
         os.system("""echo  "%s" | festival --tts"""%speech)
-    time.sleep(random.randint(0,4)*10)
+    time.sleep(random.randint(4,10)*10)
 i
