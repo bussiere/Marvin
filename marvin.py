@@ -3,6 +3,7 @@ import random
 import time
 while True :
     i = random.randint(0,8)
+    i = 7
     t = ""
     if i == 0 :
         t = "My life is SO depressing"
