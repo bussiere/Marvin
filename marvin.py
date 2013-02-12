@@ -2,8 +2,8 @@ import os
 import random
 import time
 while True :
-    i = random.randint(0,8)
-    i = 7
+    i = random.randint(0,9)
+    i = 8
     t = ""
     if i == 0 :
         t = "My life is SO depressing"
@@ -21,6 +21,8 @@ while True :
         "i was made by bussiere just that is depressing enough to kill myself"
     elif i == 7 :
         "So much pretty girls around here and i am a robot kill me please"
+    elif i ==  8 :
+        "EXTERMINATE"
     
         
     time.sleep(random.randint(0,4)*10)
