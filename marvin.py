@@ -17,14 +17,12 @@ while True :
     elif i == 5 :
         t = ["life sucks so much"]
     elif i == 6 :
-        t = ["i was made by bussiere"],["just that is depressing enough to kill myself"]
+        t = ["i was made by bussiere","just that is depressing enough to kill myself"]
     elif i == 7 :
         t  = ["So much pretty girls around here", "and i am a robot","kill me please"]
     elif i ==  8 :
         t = ["EXTERMINATE","even that sound depressing to me"]
-    
-        
-    time.sleep(random.randint(0,4)*10)
     for speech in t :
         os.system("""echo  "%s" | festival --tts"""%speech)
+    time.sleep(random.randint(0,4)*10)
 i
