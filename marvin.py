@@ -20,9 +20,9 @@ while True :
     elif i == 6 :
         "i was made by bussiere just that is depressing enough to kill myself"
     elif i == 7 :
-        "So much pretty girls around here and i am a robot kill me please"
+        t  = "So much pretty girls around here and i am a robot kill me please"
     elif i ==  8 :
-        "EXTERMINATE"
+        t = "EXTERMINATE"
     
         
     time.sleep(random.randint(0,4)*10)
